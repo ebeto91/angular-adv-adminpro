@@ -1,0 +1,9 @@
+<div class="input-group">
+    <span class="input-group-btn ">
+     <button class="btn btn-primary botones" type="button" (click)="cambiarValor(-5)"><i class="fa fa-minus"></i></button>
+    </span>
+    <input type="number" class="form-control"  [(ngModel)]="progreso" min="0" max="100" #procentajeBox (keyup)="emitOuput(procentajeBox.value)">
+    <span class="input-group-btn">
+    <button class="btn btn-primary botones" type="button" (click)="cambiarValor(5)"><i class="fa fa-plus"></i></button>
+    </span>
+</div>

@@ -9,16 +9,18 @@ import { AuthModule } from './auth/auth.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NopagefoundComponent,
+    
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    PagesModule,AuthModule
+    PagesModule,AuthModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
