@@ -14,7 +14,7 @@ export class DonaComponent implements OnInit {
  
  
     // Doughnut
-    @Input('labels') doughnutChartLabels: string[]=['Label1','Label2','Label3'];
+    public doughnutChartLabels: string[]=['Label1','Label2','Label3'];
     public doughnutChartData: ChartData<'doughnut'> = {
       labels: this.doughnutChartLabels,
       datasets: [
