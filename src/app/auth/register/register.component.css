@@ -48,4 +48,52 @@ Login register and recover password Page
       right: 0px;
       position: absolute;
       height: 100%; }
+
+      .relativo{
+        position: relative;
+        overflow: visible;
+      }
+
+
+      .alertas{
+        font-size: 16px;
+        color: red;
+        position: absolute;
+        top:5px;
+        left:-15px;
+        width: 10px;
+        height: 10px;
+    } 
+
+
+    .alertas2{
+      font-size: 16px;
+      color: red;
+      position: absolute;
+      top:5px;
+      left:-15px;
+      width: 10px;
+      height: 10px;
+  } 
+
+    .alertasCheck{
+      font-size: 16px;
+      color: red;
+      position: absolute;
+      top:0px;
+      left:0px;
+      width: 10px;
+      height: 10px;
+    }
+
+    .tamanoLetra{
+      font-size: 10px;
+    }
+
+    .mensaje{
+      height: 20px;
+      width: 100%;
+    }
+
   
+   
