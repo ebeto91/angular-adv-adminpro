@@ -6,10 +6,11 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 
@@ -21,10 +22,12 @@ import { PromesasComponent } from './promesas/promesas.component';
     Grafica1Component,
     PagesComponent,
     AccountSettingsComponent,
-    PromesasComponent
+    PromesasComponent,
+    PerfilComponent
   ],
   imports: [
     CommonModule,
+    ReactiveFormsModule,
     SharedModule,
     RouterModule,
     FormsModule,
